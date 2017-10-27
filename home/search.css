@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Lato', serif;
+    background-color: #FBF3F3;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    color: darkblue;
+    padding-top: 2px;
+    background-color: #EDDFDF;
+    box-shadow: 0 6px 10px -6px gray;
+}
+
+#vpms {
+    float: left;
+    margin-left: 30%;
+}
+
+#logout {
+    float: right;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+.content {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px green;
+    float: left;
+    background-color: #C5E1A5;
+}
+
+.onebox {
+    width: 90%;
+    float: left;
+    margin: 20px;
+    margin-bottom: 10px;
+    background-color: #F1F8E9;
+    box-shadow: 0 0 3px gray;
+}
+
+#name {
+    margin-left: 5%;
+    margin-top: 16px;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: brown;
+}
+
+#regno {
+    margin-left: 5%;
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+}
+
+#vacancy {
+    margin-left: 5%;
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+}
+
+.applynow {
+    background: #BA3636;
+    color: white;
+    width: 80%;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 10%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

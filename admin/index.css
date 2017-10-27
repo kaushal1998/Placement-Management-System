@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: 'Lato', serif;
+    background-color: #FBF3F3;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    color: darkblue;
+    text-align: center;
+    padding-top: 2px;
+    background-color: #EDDFDF;
+    box-shadow: 0 6px 10px -6px gray;
+}
+
+#vpms {
+    float: left;
+    margin-left: 30%;
+}
+
+#logout {
+    float: right;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+.admin_info {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+#name {
+    font-size: 25px;
+    color: blue;
+    float: left;
+    margin-left: 40%;
+    max-width: 400px;
+}
+
+.student_verification {
+    width: 43%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 20px;
+    background-color: #C5E1A5;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 10px green;
+    margin-bottom: 45px;
+}
+
+.onebox {
+    width: 90%;
+    float: left;
+    margin: 20px;
+    height: 190px;
+    margin-bottom: 0px;
+    background-color: #F1F8E9;
+    box-shadow: 0 0 3px gray;
+}
+
+#student_name {
+    float: left;
+    margin-left: 5%;
+    margin-top: 16px;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: brown;
+}
+
+#class {
+    float: left;
+    margin-top: 17px;
+    margin-left: 15%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#rollno {
+    float: left;
+    margin-top: 17px;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#semno {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 55px;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+}
+
+#kts {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 7px;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+}
+
+.validate {
+    background: #BA3636;
+    color: white;
+    float: left;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 50%;
+    margin-top: 12px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.invalidate {
+    background: #BA3636;
+    color: white;
+    float: left;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 3%;
+    margin-top: 12px;
+}
+
+.company_verification {
+    width: 43%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 20px;
+    background-color: #C5E1A5;
+    padding-bottom: 20px;
+    box-shadow: 0 2px 10px green;
+    margin-bottom: 45px;
+}
+
+.box {
+    width: 90%;
+    float: left;
+    margin: 20px;
+    height: 190px;
+    margin-bottom: 0px;
+    background-color: #F1F8E9;
+    box-shadow: 0 0 3px gray;
+}
+
+#company_name {
+    margin-left: 5%;
+    margin-top: 16px;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: brown;
+}
+
+#regno {
+    margin-left: 5%;
+    margin-top: 16px;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: brown;
+}
+
+#email {
+    margin-left: 5%;
+    margin-top: 16px;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: brown;
+}
+
+.validateComp {
+    background: #BA3636;
+    color: white;
+    float: left;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 50%;
+    margin-top: 12px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.invalidateComp {
+    background: #BA3636;
+    color: white;
+    float: left;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 3%;
+    margin-top: 12px;
+}

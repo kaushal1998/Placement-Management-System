@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: 'Lato', serif;
+    background-color: #FBF3F3;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    color: darkblue;
+    text-align: center;
+    padding-top: 2px;
+    background-color: #EDDFDF;
+    box-shadow: 0 6px 10px -6px gray;
+}
+
+#vpms {
+    float: left;
+    margin-left: 30%;
+}
+
+#logout {
+    float: right;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+.company_info {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+#name {
+    font-size: 25px;
+    color: blue;
+    float: left;
+    margin-left: 30%;
+    max-width: 400px;
+}
+
+#regno {
+    font-size: 25px;
+    color: blue;
+    float: left;
+    margin-left: 2%;
+}
+
+.setLimit {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px green;
+    float: left;
+    background-color: #C5E1A5;
+}
+
+#title {
+    margin-left: 25%;
+    font-size: 15px;
+    color: brown;
+    float: left;
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#current_limit {
+    margin-left: 32%;
+    font-size: 15px;
+    color: brown;
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 50%;
+    box-shadow: 0 0 8px gray;
+    margin-left: 25%;
+    height: 70px;
+    background: #F1F8E9;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type='number'] {
+    border: none;
+    float: left;
+    border-bottom: 2px solid brown;
+    height: 30px;
+    background: transparent;
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 115px;
+    text-align: center;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+}
+
+#submitLimit {
+    background: #BA3636;
+    color: white;
+    float: left;
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+}
+
+#submitLimit:hover {
+    background: brown;
+}
+
+.studentList {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px green;
+    float: left;
+    margin-bottom: 25px;
+    background-color: #C5E1A5;
+}
+
+.onebox {
+    width: 90%;
+    float: left;
+    margin: 20px;
+    margin-bottom: 10px;
+    background-color: #F1F8E9;
+    box-shadow: 0 0 3px gray;
+}
+
+#sname {
+    margin-left: 15%;
+    margin-top: 16px;
+    font-family: 'Lato', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+#branch {
+    margin-left: 15%;
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: brown;
+}
+
+#class {
+    margin-left: 15%;
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: brown;
+}
+
+#avgcgpa {
+    margin-left: 15%;
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: brown;
+}
+
+#rollno {
+    margin-left: 15%;
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: brown;
+}
+
+.view {
+    margin-left: 15%;
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: brown;
+}
+
+.details {
+    display: none;
+    margin-left: 15%;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 4px;
+    color: brown;
+}
+
+.box {
+    margin-top: 4px;
+}
+
+#resume {
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.call {
+    background: #BA3636;
+    color: white;
+    width: 80%;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 15%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}

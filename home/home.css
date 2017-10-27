@@ -1,0 +1,377 @@
+body {
+    margin: 0;
+    font-family: 'Lato', serif;
+    background-color: #FBF3F3;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    color: darkblue;
+    padding-top: 2px;
+    background-color: #EDDFDF;
+    box-shadow: 0 6px 10px -6px gray;
+}
+
+#vpms {
+    float: left;
+    margin-left: 30%;
+}
+
+#logout {
+    float: right;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+.company_info {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px green;
+    background-color: #C5E1A5;
+}
+
+.box {
+    width: 90%;
+    float: left;
+    margin: 20px;
+    margin-left: 4%;
+    margin-bottom: 10px;
+    background-color: #F1F8E9;
+    box-shadow: 0 0 3px gray;
+}
+
+#cname {
+    margin-left: 15%;
+    margin-top: 16px;
+    font-family: 'Lato', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+#regid {
+    margin-left: 15%;
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: brown;
+}
+
+.placedat {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px green;
+    background-color: #C5E1A5;
+}
+
+#placetitle {
+    margin-left: 25%;
+    font-size: 18px;
+    color: brown;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.join {
+    background: #BA3636;
+    color: white;
+    width: 60%;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 13px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.student_info {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    float: left;
+}
+
+#searchicon {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 5%;
+    cursor: pointer;
+    background-image: url(../images/search.png);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#name {
+    font-size: 25px;
+    color: blue;
+    float: left;
+    margin-left: 25%;
+    max-width: 400px;
+}
+
+#class {
+    font-size: 25px;
+    color: blue;
+    float: left;
+    margin-left: 8%;
+}
+
+#rollno {
+    font-size: 25px;
+    color: blue;
+    float: left;
+    margin-left: 2%;
+}
+
+.uploadmarks {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px green;
+    float: left;
+    background-color: #C5E1A5;
+}
+
+#title {
+    margin-left: 25%;
+    font-size: 18px;
+    color: brown;
+    float: left;
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 50%;
+    box-shadow: 0 0 8px gray;
+    margin-left: 25%;
+    height: 70px;
+    background: #F1F8E9;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid brown;
+    margin-left: 10%;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type='number'] {
+    border: none;
+    border-bottom: 2px solid brown;
+    height: 30px;
+    background: transparent;
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 115px;
+    text-align: center;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+}
+
+.onebox {
+    width: 100%;
+    margin: 10px;
+    background: #F1F8E9;
+    padding: 10px;
+    font-weight: bold;
+    padding-left: 25px;
+    float: left;
+}
+
+.sem_details {
+    color: brown;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+    float: left;
+}
+
+#semno {
+    float: left;
+}
+
+#status {
+    float: right;
+    margin-right: 50px;
+}
+
+#submitM {
+    background: #BA3636;
+    color: white;
+    float: left;
+    width: 45%;
+    margin-left: 28%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+}
+
+#submitM:hover {
+    background: brown;
+}
+
+.uploadskills {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px green;
+    float: left;
+    background-color: #C5E1A5;
+    margin-bottom: 20px;
+}
+
+.resume_container {
+    float: left;
+    width: 100%;
+}
+
+.resume {
+    float: left;
+    height: 500px;
+    width: 45%;
+    position: relative;
+    margin: 30px;
+    margin-left: 40px;
+}
+
+#my_resume {
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+#open_in_new {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fbf3f3;
+    box-shadow: 1px 1px 1px gray;
+    top: 80px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    background-image: url('../images/newtab.png');
+    background-size: 50% 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.reupload {
+    width: 45%;
+    float: left;
+    position: relative;
+}
+
+#reuploadbutton {
+    background: #BA3636;
+    color: white;
+    float: left;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 250px;
+    margin-left: 30%;
+    width: 40%;
+}
+
+.uploadbox {
+    position: absolute;
+    float: left;
+    width: 100%;
+    left: 50px;
+    bottom: 20px;
+    display: none;
+    transition: height 0.3s linear 0s, height 0.3s linear 0s;
+}
+
+.uploadbox .form-control2 {
+    margin-left: 15%;
+    width: 50%;
+    box-shadow: 0 0 8px gray;
+    background: #F1F8E9;
+    float: left;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.uploadskills input[type='button'] {
+    background: #BA3636;
+    color: white;
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+}
+
+.uploadskills input[type='file'] {
+    border: none;
+    border-bottom: 2px solid brown;
+    height: 30px;
+    background: transparent;
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 235px;
+    text-align: center;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+}
+
+.uploadskills .addmore {
+    margin-top: 35px;
+    margin-left: 0%;
+    font-size: 35px;
+    color: white;
+    background-color: blue;
+    float: left;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#talents {
+    font-family: 'Lato', serif;
+    margin-left: 5px;
+}

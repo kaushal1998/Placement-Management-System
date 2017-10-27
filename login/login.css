@@ -1,0 +1,275 @@
+body {
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    background: #E8EAF6;
+    background: -webkit-linear-gradient(top, #E8EAF6, #9FA8DA);
+    background: -o-linear-gradient(bottom, #E8EAF6, #9FA8DA);
+    background: -moz-linear-gradient(bottom, #E8EAF6, #9FA8DA);
+    background: linear-gradient(to bottom, #E8EAF6, #9FA8DA);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.admin {
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.student {
+    float: left;
+    width: 42.5%;
+    height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    margin-left: 5%;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+}
+
+.company {
+    float: right;
+    width: 42.5%;
+    height: 400px;
+    background: #fff;
+    margin: 0 auto;
+    margin-right: 5%;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+}
+
+.form1 {
+    width: 100%;
+    padding: 80px 30% 80px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.form1 input {
+    margin-bottom: 20px;
+}
+
+.form1 input[type="text"],
+.form1 input[type="password"] {
+    border: none;
+    border-bottom: 2px solid;
+    height: 20px;
+}
+
+label {
+    font-size: 15px;
+}
+
+
+/* Material style */
+
+.logstu {
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    background: #000000;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+}
+
+
+/* Ripple magic */
+
+.logstu {
+    position: relative;
+    overflow: hidden;
+}
+
+.logstu:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.50);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0, 0);
+        opacity: 1;
+    }
+    20% {
+        transform: scale(25, 25);
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(40, 40);
+    }
+}
+
+.logstu:focus:not(:active)::after {
+    animation: ripple 0.5s ease-out;
+}
+
+.errors {
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 0 15px 0;
+}
+
+.form2 {
+    width: 100%;
+    padding: 80px 200px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.form2 input {
+    margin-bottom: 20px;
+}
+
+.regpagecom {
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.regpage {
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form2 input[type="text"],
+.form2 input[type="password"],
+.form2 input[type="number"] {
+    border: none;
+    border-bottom: 2px solid;
+    height: 20px;
+}
+
+.form2 input[type="submit"] {
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    background: #000000;
+    cursor: pointer;
+    border: none;
+}
+
+.regStudent {
+    width: 100%;
+    padding: 50px 20% 80px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.regStudent label {
+    font-size: 13px;
+}
+
+.regStudent input[type="submit"] {
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    background: #000000;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;
+}
+
+.regStudent input[type="text"],
+.regStudent input[type="password"],
+.regStudent input[type="number"] {
+    border: none;
+    border-bottom: 2px solid;
+    height: 20px;
+}
+
+.alreadyAcc {
+    width: 100%;
+    padding: 80px 25% 80px;
+    box-sizing: border-box;
+    height: 400px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.rgbr {
+    float: left;
+    width: 100px;
+}
+
+#branch {
+    width: 90%;
+}
+
+.rgcl {
+    float: left;
+    width: 100px;
+    margin-left: 15px;
+}
+
+#class {
+    width: 90%;
+}
+
+.rgrl {
+    float: left;
+    width: 100px;
+    margin-left: 15px;
+}
+
+#rollno {
+    width: 90%;
+}
+
+.alreadyAcc button {
+    color: #fff;
+    background: #000000;
+    cursor: pointer;
+    border: none;
+    padding: 7px;
+    margin: 5px;
+}
+
+.regCompany {
+    width: 100%;
+    padding: 30px 25% 80px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.regCompany label {
+    font-size: 13px;
+}
+
+.regCompany input[type="text"],
+.regCompany input[type="password"],
+.regCompany input[type="number"] {
+    border: none;
+    border-bottom: 2px solid;
+    height: 20px;
+}
+
+.regCompany input[type="submit"] {
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    background: #000000;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
